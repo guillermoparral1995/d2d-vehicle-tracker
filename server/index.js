@@ -16,4 +16,4 @@ app.use((error, req, res, next) => {
     res.sendStatus(500);
 })
 
-app.listen(8080, () => console.log('LISTENING IN PORT 8080'))
+app.listen(8080, () => console.log('SERVER ::: Listening in port 8080'));
